@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(110, 110, 110);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
+
+body {
+  background-color: rgb(44, 42, 42);
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: #3f5793;
+}
+
+.green {
+  background-color: greenyellow;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.row {
+  padding-left: 8px;
+}
+
+.col {
+  float: left;
+  padding: 0 8px;
+}
+
+.col-full {
+  width: 100%;
+}
+
+.col-half {
+  width: 50%;
+}
+
+.col-third {
+  width: 33.33333%;
+}
+
+.col-30 {
+  width: calc(30% + 10px);
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mr-8 {
+  margin-right: 8px;
+}
+
+.ml-8 {
+  margin-left: 8px;
+}
+
+.mt-8 {
+  margin-top: 8px;
+}
+
+.pc-hide {
+  display: none;
+}
